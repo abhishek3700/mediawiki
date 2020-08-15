@@ -1,6 +1,6 @@
 # Base image is documented in Dockerfile-base
-FROM benhutchins/mediawiki:base
-MAINTAINER Benjamin Hutchins <ben@hutchins.co>
+FROM abhishek/mediawiki:base
+MAINTAINER abhishek patimetla <abhishek.patimetla@gmail.com>
 
 # You can specify the MediaWiki version as a build-time arg
 ARG MEDIAWIKI_VERSION
